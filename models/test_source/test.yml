@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: my_1st_dbt_model
+  - name: my_1st_dbt_model_oooops
     description: "A starter dbt model"
     columns:
       - name: id
@@ -12,7 +12,7 @@ models:
           - not_null
 
   - name: my_2nd_dbt_model
-    description: "A starter dbt model"
+    description: "A starter dbt model (actually a view)"
     columns:
       - name: id
         description: "The primary key for this table"
@@ -21,13 +21,7 @@ models:
           - not_null
   
   - name: my_3rd_dbt_model
-    description: "Third model"
+    # description: "Third model. (actually a view)"
     columns:
       - name: id
         description: "The pk"
-  
-  - name: the_4th_model
-    columns:
-      - name: id
-        description: "This ones pk"
-        
