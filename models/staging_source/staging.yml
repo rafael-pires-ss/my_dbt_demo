@@ -16,7 +16,11 @@ models:
       - name: id
         description: "This ones pk"
       - name: name
-        description: "a random const"
+        description: "inserting a multiline
+          description to the 'name' column
+          lets keep going like this
+          all the way down!
+          another line!!"
 
   # missmatch name
   - name: the_5th_model
