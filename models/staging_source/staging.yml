@@ -22,8 +22,8 @@ models:
           all the way down!
           another line!!"
 
-  # missmatch name
-  - name: the_5th_model
+  # missmatch name (used to)
+  - name: my_5th_dbt_model
     columns:
       - name: model1_id
         description: "pk of 1st model"
