@@ -26,7 +26,6 @@ models:
   - name: my_5th_dbt_model
     columns:
       - name: model1_id
-        description: "pk of 1st model"
       - name: model4_id
         description: "pk of 4th model"
         
