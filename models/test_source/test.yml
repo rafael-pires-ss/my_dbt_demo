@@ -2,15 +2,6 @@
 version: 2
 
 models:
-  - name: my_1st_dbt_model_oooops
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-
   - name: my_2nd_dbt_model
     description: "A starter dbt model (actually a view)"
     columns:
