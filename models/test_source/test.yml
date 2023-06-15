@@ -1,18 +1,14 @@
-
 version: 2
-
 models:
-  - name: my_2nd_dbt_model
-    description: "A starter dbt model (actually a view)"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-  
-  - name: my_3rd_dbt_model
-    # description: "Third model. (actually a view)"
-    columns:
-      - name: id
-        description: "The pk"
+- name: my_2nd_dbt_model
+  description: A starter dbt model (actually a view)
+  columns:
+  - name: id
+    description: The primary key for this table
+    tests:
+    - unique
+    - not_null
+- name: my_3rd_dbt_model
+  columns:
+  - name: id
+    description: The pk
