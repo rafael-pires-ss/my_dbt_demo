@@ -1,31 +1,25 @@
-
 version: 2
-
 models:
-  - name: my_1st_dbt_model
-    description: "Should not be here...."
-    columns:
-      - name: id
-        description: "The primary key for this table X"
-        tests:
-          - unique
-          - not_null
-  
-  - name: my_4th_dbt_model
-    columns:
-      - name: id
-        description: "This ones pk"
-      - name: name
-        description: "inserting a multiline
-          description to the 'name' column
-          lets keep going like this
-          all the way down!
-          another line!!"
-
-  # missmatch name (used to)
-  - name: my_5th_dbt_model
-    columns:
-      - name: model1_id
-      - name: model4_id
-        description: "pk of 4th model"
-        
+- name: my_1st_dbt_model
+  description: Should not be here....
+  columns:
+  - name: id
+    description: The primary key for this table X
+    tests:
+    - unique
+    - not_null
+- name: my_4th_dbt_model
+  columns:
+  - name: id
+    description: This ones pk
+  - name: name
+    description: inserting a multiline description to the 'name' column lets keep
+      going like this all the way down! another line!!
+  description: here too! sure!
+- name: my_5th_dbt_model
+  columns:
+  - name: model1_id
+    description: it got removed and is back!
+  - name: model4_id
+    description: pk of 4th model
+  description: included a brand new desc! lets go! this is the last one!
