@@ -11,4 +11,4 @@ models:
 - name: my_3rd_dbt_model
   columns:
   - name: id
-    description: The pk one last time
+    description: The pk one last time. Say hello to my little friend!
