@@ -22,4 +22,5 @@ models:
     description: it got removed and is back!
   - name: model4_id
     description: pk of 4th model
-  description: included a brand new desc! lets go! this is the last one!
+  description: included a brand new desc! lets go! this is the last one! i hope so
+    (bug fix)
