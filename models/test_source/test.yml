@@ -1,7 +1,7 @@
 version: 2
 models:
 - name: my_2nd_dbt_model
-  description: Yes definitely a view!! again and again
+  description: Yes definitely a view!! again and again 2
   columns:
   - name: id
     description: The primary key for this table. Sure, yeah, I think so...
@@ -11,4 +11,5 @@ models:
 - name: my_3rd_dbt_model
   columns:
   - name: id
-    description: The pk one last time
+    description: The pk one last time. Say hello to my little friend!
+  description: Should not be here.... 2
