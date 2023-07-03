@@ -1,7 +1,7 @@
 version: 2
 models:
 - name: my_1st_dbt_model
-  description: Should not be here....
+  description: Should not be here.... !!
   columns:
   - name: id
     description: The primary key for this table X
@@ -14,8 +14,8 @@ models:
     description: This ones pk
   - name: name
     description: inserting a multiline description to the 'name' column lets keep
-      going like this all the way down! another line!!
-  description: here too! sure!
+      going like this all the way down! another line!! JK!
+  description: here too! sure! !!
 - name: my_5th_dbt_model
   columns:
   - name: model1_id
